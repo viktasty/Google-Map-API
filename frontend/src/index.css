@@ -1,0 +1,53 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+form label {text-align: right;}
+form div.row{padding-top: 10px;padding-bottom: 10px;}
+
+table tr {
+  transition: 0.1s ease;
+  cursor: pointer;
+}
+table tr:not(thead>tr):hover {
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+}
+button.btn.btn-success {
+  transition: transform 0.4s ease-in-out;
+}
+.dragging {
+  transform: scale(0.98) rotate(0deg);
+  position: absolute;
+  opacity: 0.8;
+}
+.space-filler {
+  transform: translateY(0px); /* or any desired distance */
+}
+button a {
+  display: none;
+  transition: 0.1s ease;
+  color: white;
+}
+button:hover a {
+  display: inline-block;
+}
+button:hover a:hover {
+  color: hotpink!important;
+  text-decoration: underline!important;
+}
+.dwExcel:hover {
+  border:2px solid black;
+  border-radius: 15px;
+  box-shadow: 15px 15px 25px rgba(0, 0, 0, 0.3);
+}
