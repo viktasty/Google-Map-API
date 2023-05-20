@@ -19,20 +19,20 @@ This application contains several technical skills such as
 >and google map api is need to let this app to work.
 >The frontend UI/UX has good style and offer user-friendly functionalities for users.
 
-#Tech
+## Tech
 
 Google map matrix distance api has many challenges.
 
 -[Backend] - Backend is developed by api mode.
 -[Frontend] - Frontend is developed by user-friendly mode.
 
-#Installation
+## Installation
 
 Google Map API requires [Node.js](https://nodejs.org/) v18 to run.
 
 Install the dependencies and start the server
 
-##Backend
+### Backend
 
 ```sh
 cd backend
@@ -40,7 +40,7 @@ npm install
 node server
 ```
 
-##Frontend
+### Frontend
 ```sh
 cd frontend
 npm install
