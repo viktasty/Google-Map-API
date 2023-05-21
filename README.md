@@ -3,6 +3,8 @@ Use google map api to get the best path from origin to destination through sever
 
 Google map api demonstrates how to use google map api to get the shortest path between two points, through the several mid points.
 
+https://github.com/StevenHocking/Google-Map-API/blob/master/refs/Frontend-1.png
+![Google Map API Test](https://github.com/StevenHocking/Google-Map-API/blob/master/refs/Frontend-1.png?raw=true)
 The drivers should deliver products placed in various position, and the company wants to optimize the path.
 
 So they established server on internet, and wants to present to the drivers the shortest path they choose to deliver a day.
