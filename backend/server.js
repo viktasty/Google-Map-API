@@ -18,6 +18,6 @@ app.use(bodyParser.urlencoded())
 
 app.use(require("./routes/route"));
  
-app.listen(port, () => {
+app.listen(5000, () => {
   console.log(`Server is running on port: ${port}`);
 });
