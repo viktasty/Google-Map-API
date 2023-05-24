@@ -27,7 +27,7 @@ router.route("/test").get(function (req, response) {
 router.route("/postdata").post(async (req, response) => {
 
   let data = req.body.data;
-  const API_KEY = "AIzaSyCEUYa_jJGDsoq3hugOAL_3nzn0lolNGBk";
+  const API_KEY = "YOUR_GOOGLE_MAP_API_KEY";
   const permute = (arr, l = 0, r = arr.length - 1, result = []) => {
     if (l === r) {
       result.push([...arr]);
