@@ -13,7 +13,6 @@ const Client = () => {
 const App = () => {
   return (
     <div className="App">
-    <h1 style={{padding:'30px'}}>Testing now</h1>
       <h1 style={{padding:'30px'}}>Google Map Matrix Distance API Test</h1>
       <Client />
 
